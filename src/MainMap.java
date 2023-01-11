@@ -3,13 +3,13 @@ import java.util.Map;
 
 public class MainMap {
     public static void main(String[] args) {
-        Map<Integer, String> hereMap = new HashMap<>();
-        hereMap.put(1,"ダイ");
-        hereMap.put(2,"バーン");
-        hereMap.put(3,"アバン");
-        hereMap.put(4,"バラン");
+        Map<Integer, String> heroMap = new HashMap<>();
+        heroMap.put(1,"ダイ");
+        heroMap.put(2,"バーン");
+        heroMap.put(3,"アバン");
+        heroMap.put(4,"バラン");
 
-        for (String val : hereMap.values()){
+        for (String val : heroMap.values()){
             System.out.println(val);
         }
     }
